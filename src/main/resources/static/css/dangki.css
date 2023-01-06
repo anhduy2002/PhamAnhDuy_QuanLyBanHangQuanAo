@@ -1,0 +1,117 @@
+@import url('http://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    position: absolute;
+    background: #F5F5F5;
+    width: 100%;
+    min-height: 100vh;
+    margin: 1em 0 0 6em;
+}
+
+.aside{
+	padding: 0;
+   position: relative;
+   left: 28em;
+}
+.card-heard h2{
+    padding: 0px;
+    margin: 0px;
+    color: #000;
+    position: relative;
+    left: 0.5em;
+    top: 5px;
+    font-weight: 580;
+    transition: 0.3s ease;
+}
+.card-heard h2:hover{
+	font-size: 32.1px;
+	transition: 0.3s ease;
+}
+.card-heard h2 p{
+    font-family: 'Times New Roman', Times, serif;
+    text-shadow: 1px 1px 2px #999;
+}   
+.card1{
+
+	position: relative;
+    gap: 0.5em;
+    border: 1px solid #999;
+}
+.form-group .form-label{
+    position: relative;
+    left: 0.5em;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    text-shadow: 0px 1px 0px #7777;
+}
+.form-group .form-control{
+	 position: relative;
+    border: 2px solid #777777;
+    margin: 0;
+    transition: 0.7s ease;
+}
+.form-group .form-control:hover{
+    position: relative;
+    background: #EEEEEE;
+    transition: 0.7s ease;
+    width: 100%;
+    box-shadow: 0 0 7px #999999;
+
+}
+.button{   
+    width: 80%;
+    position: relative;
+    top: -6px;
+    left: 1cm;
+    margin-bottom: 15px;
+    text-align: center;
+}
+.button .down{
+    background: #66CC99;
+    width: 50%;
+    height: 1cm;
+    font-size: 18px;
+    color: #ffff;
+    font-weight: 600;
+    text-decoration: none;
+    margin: 0;
+    position: relative;
+    top: 2px;
+    transition: 0.8s ease;
+}
+.button .down:hover{
+    position: relative;
+    color: #777777;
+    font-size: 20px;
+    transition: 0.8s ease;
+}
+.card1 .p{
+    width: 50%;
+    position: relative;
+    padding: 0;
+    top: -2em;
+    font-size: 15px;
+}
+.images img{
+    position: absolute;
+    width: 26em;
+    margin-top:22px;
+    border: 1px solid #7777;
+    border-radius: 2px;
+    box-shadow: 0 0 5px #7777;
+    transition: 0.6s ease;
+}
+.images img:hover{
+    box-shadow: 0 0 15px #999999;
+    transition: 0.6s ease;
+    width: 26.2em;
+}
